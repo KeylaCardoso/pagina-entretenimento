@@ -1,0 +1,231 @@
+html #cards-about{
+  margin:0 !important;
+  padding:0 !important;
+}
+
+#header {
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    top: 20px;
+  }
+#header .header-container {
+    background: rgb(204, 189, 189);
+ 
+  }
+  
+  #header .logo img {
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    max-height: 90px;
+  }
+
+  /*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+.navbar {
+    padding: 0px 20px 0px 0px ;
+    margin: 10px 20px 10px 20px;
+  }
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .navbar li {
+    position: relative;
+  }
+  .navbar a,
+  .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  color: #36343a;
+  transition: 0.3s;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover,
+.navbar .active:focus,
+.navbar:focus,
+.navbar li:hover>a {
+  background-color: hsl(0, 45%, 28%);
+  color: aliceblue;
+}
+    
+/*.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  background-color: hsl(0, 45%, 28%);
+  color: aliceblue;
+}*/
+
+  /*--------------------------------------------------------------
+# Content Section
+--------------------------------------------------------------*/
+#myCarousel .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+#myCarousel .carousel-item:before {
+  content: "";
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#banner-text {
+  letter-spacing: 0.5px;
+}
+
+  /*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+#about {
+background-color:bisque;
+margin-top: 0px;
+}
+
+#spacer-about {
+  margin: auto;
+  padding: 0px;
+  width: 100%;
+}
+
+#presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:floralwhite;
+  letter-spacing: 0.5px;
+
+}
+
+#presentation h5 {
+  text-transform: uppercase;
+  padding: 0px 10px 0px 10px;
+}
+
+#presentation p {
+  padding: 5px;
+}
+
+#cards-about{
+  width: 100%;
+  height: 100%; 
+  text-align: center;
+  padding: 0px;
+}
+
+#card-content {
+  width: 370px;
+  height: 330px; 
+  padding: 10px 10px; 
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center; 
+  border-radius: 10px;	
+  background: #fff;	
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+	padding: 0px; }
+
+#card-content:hover {
+  background-color: seagreen;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#card-content .card-img-top {
+  width: 60px; 
+  height: 60px;}
+
+#card-content .card-title {
+  font-weight: bold;}
+
+#card-content .card-text{
+  font-size: small;}
+
+#card-content .btn-light {
+ margin-left: 40px;
+ margin-right: 40px;
+ border-color: grey;
+}
+
+  /*--------------------------------------------------------------
+# Portfólio Section
+--------------------------------------------------------------*/
+#portfolio-section {
+  background-color:bisque;
+  margin-top: 0px;
+  padding-bottom: 10px;
+  }
+
+#portfolio {
+  margin: auto;
+  padding: 0px;
+  width: 100%;
+}
+
+#Protfolio .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:floralwhite; 
+  letter-spacing: 0.5px; 
+}
+
+#portfolio h5 {
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio .card .btn-light {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 20px;
+  border-color: grey;
+ }
+
+
+  /*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa;}
+.footer a{color: #aaa;margin: 0 1em; }
+
+.gototop{position: fixed;bottom: 20px; right: 20px;background: rgba(0,0,0,0.5);padding: 10px;color: #fff;}
+.gototop i{line-height: 0.5em;}
+
+
+
+
+    
+
+
